@@ -1,0 +1,10 @@
+// Importuj tylko potrzebne moduły Bootstrap
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+// Importuj tylko wybrane komponenty
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/offcanvas";
+

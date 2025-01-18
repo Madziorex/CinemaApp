@@ -1,0 +1,56 @@
+.crud-hall {
+  margin: 20px;
+}
+
+.crud-hall ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.crud-hall li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.hall-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.crud-hall button {
+  padding: 10px 20px;
+  background-color: #0c77e9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.crud-hall button:hover {
+  background-color: #0c64c0;
+}
+
+.crud-hall .delete-button {
+  background-color: #dc3545;
+}
+
+.crud-hall .delete-button:hover {
+  background-color: #c82333;
+}
+
+.crud-hall .edit-button {
+  background-color: #28a745;
+}
+
+.crud-hall .edit-button:hover {
+  background-color: #218838;
+}

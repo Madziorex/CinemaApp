@@ -1,0 +1,65 @@
+  .hall-generator .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hall-generator label {
+    margin-bottom: 5px;
+  }
+  
+  .hall-generator input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hall-generator .button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .hall-generator button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hall-generator button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hall-generator .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .hall-generator .close-button:hover {
+    background-color: #c82333;
+  }
+  
+  .screen {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ddd;
+    color:#000;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  

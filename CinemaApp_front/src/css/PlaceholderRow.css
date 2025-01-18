@@ -1,0 +1,36 @@
+.placeholder {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 20px;
+    margin-bottom: 8px;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  .placeholder.large {
+    height: 40px;
+  }
+  
+  .placeholder-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .placeholder-row > .placeholder {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .placeholder-row > .placeholder:last-child {
+    margin-right: 0;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  

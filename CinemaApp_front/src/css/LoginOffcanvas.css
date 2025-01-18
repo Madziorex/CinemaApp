@@ -1,0 +1,30 @@
+.offcanvas {
+    background-color: #000;
+}
+
+.offcanvas-header {
+    border-left: 1px solid #ff2c1f;
+}
+
+.offcanvas-body {
+    border-left: 1px solid #ff2c1f;
+}
+
+.custom-offcanvas-header {
+    display: flex;
+    justify-content: space-between; /* Rozdziela elementy */
+    align-items: center; /* Wyrównuje elementy pionowo */
+  }
+
+.custom-close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff; /* Czarny kolor */
+    cursor: pointer;
+
+  }
+  
+  .custom-close-button:hover {
+    color: gray; /* Czerwony kolor na hover */
+  }

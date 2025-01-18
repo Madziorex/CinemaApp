@@ -1,0 +1,102 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.movie-header {
+  display: contents;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+.movie-row {
+  display: contents;
+  align-items: center;
+  min-height: 50px;
+  font-size: 1.1rem;
+}
+
+.movie-row span,
+.movie-header span {
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.edit-button,
+.poster-button,
+.delete-button,
+.background-button {
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.edit-button {
+  background-color: #28a745;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
+
+.poster-button,
+.background-button {
+  background-color: #0c77e9;
+}
+
+.poster-button:hover,
+.background-button:hover {
+  background-color: #0c64c0;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.title-and-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.AddMovie-button {
+  padding: 10px 20px;
+  background-color: #0c77e9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.AddMovie-button:hover {
+  background-color: #0c64c0;
+}
+
+.AddMovie-content {
+  margin: 20px;
+}

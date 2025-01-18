@@ -1,0 +1,52 @@
+.action-buttons .btn-check:checked+.btn {
+    background-color: #c82333;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #dc3545;
+}
+
+.action-buttons .btn {
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+    width: 10rem;
+    border: 3px solid #dc3545;
+}
+
+.action-buttons .btn:hover {
+    background-color: #202020;
+    color: white;
+    border: 3px solid #dc3545;
+}
+
+.action-buttons .btn-check {
+    display: none;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.action-buttons {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-buttons .btn-group .btn {
+    margin-right: 1rem;
+}
+
+.action-buttons .btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+.action-movies {
+    margin-bottom: 2rem;
+}

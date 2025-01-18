@@ -1,0 +1,114 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-container {
+    background: #000;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 20px;
+    max-height: 90vh;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .popup-content {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .popup-close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .popup-close-button:hover {
+    background-color: #c82333;
+  }
+  
+  .popup-title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .crud-screening-form {
+    margin: 20px;
+  }
+  
+  .crud-movie-search {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .crud-datetime-input,
+  .crud-price-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .crud-checkbox {
+    margin-right: 10px;
+  }
+  
+  .crud-submit-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #0c77e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .crud-submit-button:hover {
+    background-color: #0c64c0;
+  }
+  
+  .crud-dropdown {
+    position: absolute;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+  }
+  
+  .crud-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .crud-dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  

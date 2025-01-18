@@ -1,0 +1,142 @@
+.carousel-panel {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+
+.carousel-trailer-icon-bigger {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.carousel-trailer-icon-bigger::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    filter: opacity(0.5);
+    z-index: -2;
+}
+
+.carousel-trailer-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.carousel-trailer-icon:hover {
+    transform: scale(1.05);
+}
+
+.carousel-trailer-icon-bigger:hover {
+    transform: scale(1.1);
+}
+
+.carousel-play-icon {
+    font-size: 1.5rem;
+    color: #dc3545;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.carousel-play-icon:hover {
+    transform: scale(1.1);
+}
+
+
+.carousel-trailer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-trailer-container a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.carousel-watch-trailer-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #909090;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+  }
+  
+  .carousel-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 10px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+  }
+  
+  .carousel-buy-now {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #dc3545;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+  }
+  
+  .carousel-buy-now:hover {
+    background-color: #c82333;
+  }

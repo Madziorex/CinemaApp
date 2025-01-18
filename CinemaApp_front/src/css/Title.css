@@ -1,0 +1,6 @@
+.action-line {
+    margin: rem 0;
+    border: none;
+    height: 5px;
+    background: linear-gradient(to right, #ff2c1f, transparent);
+}

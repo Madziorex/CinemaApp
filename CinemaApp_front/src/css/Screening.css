@@ -1,0 +1,444 @@
+.screening-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+}
+
+.screening-header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(40%);
+  z-index: -1;
+}
+
+.screening-poster {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 10%;
+}
+
+.screening-title {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.screening-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding-top: 2rem;
+}
+
+.selected-seats-section {
+  padding-left: 2rem;
+}
+
+.select-seats {
+  font-weight: bold;
+  text-align: center
+}
+
+.selected-seats-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.selected-seats-section ul li {
+  margin: 0;
+  padding: 10px;
+  border: 2px solid #404040;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.row-number,
+.seat-number {
+  font-size: 1.5rem;
+  padding: 0 0.3rem;
+}
+
+.seat-price {
+  font-size: 1.5rem;
+  color: #606060;
+  float: right;
+}
+
+.seats-total-price {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.total-price {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.cancel-button,
+.buy-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  width: 100%;
+  border: 2px solid #dc3545;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.cancel-button {
+  color: #dc3545;
+}
+
+.cancel-button:hover {
+  background-color: #101010;
+}
+
+.buy-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.buy-button:hover {
+  background-color: #c82333;
+}
+
+.screening-date-details {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  font-family: Lato, sans-serif;
+  padding-right: 2rem;
+}
+
+.screening-date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.screening-date .day {
+  font-size: 2.5rem;
+}
+
+.screening-date .month {
+  font-size: 1rem;
+}
+
+.screening-times {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.screening-details {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.date {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 2px solid #dc3545;
+  background: #000;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-buttons button.active {
+  background: #dc3545;
+  font-weight: bold;
+  color: white;
+}
+
+.tab-buttons button:disabled {
+  color: #3b3b3b;
+}
+
+.tab-buttons button:hover:not(.active) {
+  background: #333;
+}
+
+.ticket-details {
+  text-align: center;
+}
+
+.ticket-details input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.ticket-details button {
+  padding: 10px 20px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.screen-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.screen {
+  background: #3b3b3b;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.email-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.email-container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.email-container input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.ticket-details input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.ticket-details button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #dc3545;
+  color: white;
+  border: 2px solid #dc3545;
+  cursor: pointer;
+}
+
+.ticket-details button:hover {
+  background-color: #c82333;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.discount-applied {
+  font-size: 1rem;
+  color: #dc3545;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.payment-options {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  margin-top: 20px;
+}
+
+.payment-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.payment-option {
+  margin-bottom: 15px;
+}
+
+.payment-option label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 3px solid #404040;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.radio-input {
+  margin-right: 10px;
+  accent-color: #dc3545;
+}
+
+.payment-options label:hover {
+  background-color: #202020;
+}
+
+.payment-icon {
+  font-size: 1.5rem;
+  width: 4rem;
+}
+
+.payment-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Styl dla małych ekranów */
+@media (max-width: 768px) {
+  .screening-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screening-poster {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .screening-title {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .screening-content {
+    grid-template-columns: 1fr; /* Wszystko w jednej kolumnie */
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .selected-seats-section ul li {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .cancel-button,
+  .buy-button {
+    width: 100%; /* Rozciągnięcie przycisków na całą szerokość */
+    margin: 5px 0;
+  }
+
+  .screening-date-details {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .payment-options {
+    padding: 1rem;
+  }
+
+  .payment-option label {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .radio-input {
+    margin: 0;
+  }
+
+  .ticket-details input {
+    width: 100%;
+  }
+
+  .ticket-details button {
+    width: 100%;
+  }
+}
+
+/* Styl dla średnich ekranów */
+@media (max-width: 1024px) {
+  .screening-header {
+    gap: 10px;
+  }
+
+  .screening-title {
+    font-size: 2rem;
+  }
+
+  .screening-content {
+    grid-template-columns: 1fr 1fr; /* Dwa bloki w rzędzie */
+    gap: 15px;
+  }
+
+  .selected-seats-section ul li {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .screening-date-details {
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .tab-buttons button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Minimalne zmiany dla dużych ekranów */
+@media (min-width: 1025px) {
+  .screening-content {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}

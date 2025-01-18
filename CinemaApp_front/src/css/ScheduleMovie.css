@@ -1,0 +1,90 @@
+.schedule-movie {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    max-width: 1400px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.poster-and-details {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.poster img {
+    max-width: 200px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0;
+    padding: 0px 10px;
+    padding-top: 0;
+}
+
+.info {
+    font-size: 1.2rem;
+    color: gray;
+    padding: 5px 10px;
+    padding-top: 0;
+}
+
+.movie-screenings {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+
+.screenings-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    width: 100%;
+}
+
+.schedule-screening {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1200px) {
+    .screenings-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .screenings-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .screenings-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .screenings-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,35 @@
+.seat-square {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+  }
+  
+  .seat-square.selected {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .seat-square.unavailable {
+    background-color: #404040;
+    cursor: not-allowed;
+  }
+
+  .seat-square.reserved {
+    background-color: #ff0000;
+    cursor: not-allowed;
+  }
+
+  .admin-reserved {
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  .admin-reserved:hover {
+    background-color: darkorange;
+  }

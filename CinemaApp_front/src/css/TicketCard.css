@@ -1,0 +1,26 @@
+.ticketcard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2px solid #505050;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ticketcard-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+.ticketcard-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.ticketcard-qrcode {
+    float: right;
+}

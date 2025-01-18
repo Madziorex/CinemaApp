@@ -1,0 +1,81 @@
+form {
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+form p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+form input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus {
+    border-color: #ff2c1f;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    border: 3px solid #dc3545;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #c82333;
+}
+
+.login-error {
+    margin-top: 1rem;
+    color: #ff2c1f;
+}
+
+@media (max-width: 480px) {
+    form {
+        padding: 1.5rem;
+    }
+
+    form h1 {
+        font-size: 1.5rem;
+    }
+
+    form input,
+    form button {
+        font-size: 0.9rem;
+    }
+}

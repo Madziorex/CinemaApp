@@ -1,0 +1,27 @@
+.crud-reservation-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.crud-reservation-content {
+    margin: 20px;
+}
+
+.create-tickets-button {
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.create-tickets-button {
+    background-color: #28a745;
+}
+
+.create-tickets-button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,147 @@
+.crud-screening-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.crud-screening-header {
+  display: contents;
+  font-weight: bold;
+  font-size: 1.crud-2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.crud-screening-row {
+  display: contents;
+  align-items: center;
+  min-height: 50px;
+  font-size: 1.crud-1rem;
+}
+
+.crud-screening-row span,
+.crud-screening-header span {
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.crud-button-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.crud-edit-button,
+.crud-delete-button,
+.crud-view-button {
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.crud-edit-button {
+  background-color: #28a745;
+}
+
+.crud-edit-button:hover {
+  background-color: #218838;
+}
+
+.crud-delete-button {
+  background-color: #dc3545;
+}
+
+.crud-delete-button:hover {
+  background-color: #c82333;
+}
+
+.crud-view-button {
+  background-color: #0c77e9;
+}
+
+.crud-view-button:hover {
+  background-color: #0c64c0;
+}
+
+.crud-title-and-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.crud-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.crud-AddScreening-button {
+  padding: 10px 20px;
+  background-color: #0c77e9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.crud-AddScreening-button:hover {
+  background-color: #0c64c0;
+}
+
+.crud-CRUDScreening-content {
+  margin: 20px;
+}
+
+.crud-search-bar {
+  margin: 1em 0;
+}
+
+.crud-search-input {
+  padding: 0.crud-5em;
+  font-size: 1em;
+  width: 100%;
+  max-width: 300px;
+}
+
+.crud-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.crud-pagination-button {
+  background-color: #0c77e9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.crud-3s ease;
+}
+
+.crud-pagination-button:disabled {
+  background-color: #202020;
+  cursor: not-allowed;
+}
+
+.crud-pagination-button:hover:not(:disabled) {
+  background-color: #0c64c0;
+}
+
+.crud-pagination span {
+  font-size: 16px;
+  color: #333;
+}
+.crud-search-bar input {
+  padding: 5px 10px;
+  border: 1px solid #dc3545;
+}

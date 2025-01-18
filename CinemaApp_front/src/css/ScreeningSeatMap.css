@@ -1,0 +1,28 @@
+.screening-seat-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .screen {
+    width: 100%;
+    max-width: 600px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  .seat-map-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  

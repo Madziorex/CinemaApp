@@ -1,0 +1,135 @@
+.coupon-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.coupon-header {
+    display: contents;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.coupon-row {
+    display: contents;
+    align-items: center;
+    min-height: 50px;
+    font-size: 1.1rem;
+}
+
+.coupon-row span,
+.coupon-header span {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.edit-button,
+.delete-button {
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.edit-button {
+    background-color: #28a745;
+}
+
+.edit-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.title-and-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.AddCoupon-button {
+    padding: 10px 20px;
+    background-color: #0c77e9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.AddCoupon-button:hover {
+    background-color: #0c64c0;
+}
+
+.CRUDCoupon-content {
+    margin: 20px;
+}
+
+.search-bar {
+    margin: 1em 0;
+  }
+  
+  .search-input {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  .pagination-button {
+    background-color: #0c77e9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #202020 !important;
+    cursor: not-allowed;
+  }
+  
+  .pagination-button:hover:not(:disabled) {
+    background-color: #0c64c0;
+  }
+  
+  .pagination span {
+    font-size: 16px;
+    color: #333;
+  }
+  

@@ -1,0 +1,35 @@
+.schedule-screening {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid white;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.schedule-screening div {
+  margin-bottom: 2px;
+}
+
+.schedule-screening strong {
+  display: block;
+}
+
+.schedule-screening .time-range {
+  color: white;
+}
+
+.schedule-screening .end-time {
+  color: #878787;
+}
+
+.schedule-screening {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.schedule-screening:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}

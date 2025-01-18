@@ -1,0 +1,4 @@
+.action-line {
+    background: rgb(255, 0, 24);
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}

@@ -1,0 +1,24 @@
+.users-list {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr auto;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .admin-users-container {
+    margin: 20px;
+  }
+
+  .user-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px;
+    font-size: 1.25rem;
+  }
+
+  .popup-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
